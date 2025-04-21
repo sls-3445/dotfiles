@@ -9,5 +9,8 @@ config.font = wezterm.font {
 }
 
 config.color_scheme = 'Abernathy'
+config.window_decorations = "None"
+config.audible_bell = "Disabled"
+
 
 return config
