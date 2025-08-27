@@ -1,0 +1,14 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = sls
+	email = Solomonshulman13@gmail.com
+[init]
+	defaultBranch = main
+[diff]
+	tool = nvimdiff
+[core]
+	excludesfile = /Users/solomonshulman/dotfiles/.gitignore
