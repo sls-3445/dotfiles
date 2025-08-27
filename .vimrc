@@ -5,4 +5,4 @@ set expandtab
 set autoindent
 set number
 syntax on
-
+set background=dark

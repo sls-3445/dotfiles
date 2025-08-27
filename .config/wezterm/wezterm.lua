@@ -9,8 +9,8 @@ config.font = wezterm.font {
 }
 
 config.color_scheme = 'Abernathy'
-config.window_decorations = "None"
+config.window_decorations = "RESIZE"
 config.audible_bell = "Disabled"
-
+config.native_macos_fullscreen_mode = true
 
 return config

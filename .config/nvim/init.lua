@@ -18,6 +18,8 @@ require('lazy').setup({
     require 'plugins.colortheme',
     require 'plugins.treesitter',
     require 'plugins.telescope',
-    require 'plugins.comments'
+    require 'plugins.comments',
+    require 'plugins.gitsigns',
+    -- require 'plugins.lsp'
 })
 
