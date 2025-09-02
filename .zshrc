@@ -6,6 +6,8 @@ zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-colors "${(s.:.)LSCOLORS}"
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 
+source activate
+
 # VIM Mode
 # bindkey -v
 # export KEYTIMEOUT = 1
